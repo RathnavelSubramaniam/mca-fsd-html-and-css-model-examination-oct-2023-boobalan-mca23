@@ -1,0 +1,118 @@
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;     
+    width: 100%;
+    margin:15px auto;
+   
+   
+}
+section{
+    width: 60%;
+    
+    float: right;
+    padding: 20px;
+    
+}
+aside{
+    width: 40%px;
+    float: left;
+    
+   
+}
+footer{
+   clear: both;
+    
+}
+.logo{
+    float: left;
+    overflow: hidden;
+}
+header{
+    background-image: linear-gradient(to left,#DA2C43,white,#DA2C43);
+    
+}
+footer{
+    background-image: linear-gradient(to left,#DA2C43,white,#DA2C43);
+}
+.footer{
+    padding: 30px;
+    text-align: center;
+}
+
+.navbar-brand{
+    color: #DA2C43 !important;
+}
+nav{
+    clear: both;
+}
+.navbar-nav{
+    background-color: white !important;
+}
+.nav-item{
+    padding: 0 100px;
+    border: 1px solid black;
+    background-color: gray;
+    
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    
+}
+.about{
+    width:100%
+}
+.about h2{
+    text-align: center;
+}
+.sub_title{
+    text-align: center;
+   
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.sub_title_2{
+    text-align: center;
+    border-bottom: 3px solid  rgb(197, 40, 40);
+    margin-left: 40%;
+    margin-right: 40%;   
+}
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2px;
+  
+   
+}
+
+.about_conatainer{
+    border: 5px inset rgb(126, 233, 76);
+    border-radius: 0.5rem;
+    padding: 3px;
+    box-shadow: 3px 3px 3px 3px rgb(85, 82, 82);
+    margin: 4px;
+  
+}
+#section h3{
+   text-align: center; 
+}
+
+@media only screen and (max-width: 600px) {
+    .head h1,p{
+     clear: both;
+     text-align: center;
+    }
+    .logo{
+      position: relative;
+      left:120px;
+    }
+    .about-grid{
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 2px;
+      
+       
+    }
+
+   }

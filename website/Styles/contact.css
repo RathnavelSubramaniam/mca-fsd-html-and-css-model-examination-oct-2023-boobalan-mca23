@@ -1,0 +1,92 @@
+body{
+    font-family: 'Times New Roman', Times, serif;     
+    width: 100%;
+    margin:15px auto;
+   
+   
+}
+header{
+    background-image: linear-gradient(to left,#DA2C43,white,#DA2C43);
+    
+}
+footer{
+    background-image: linear-gradient(to left,#DA2C43,white,#DA2C43);
+}
+.footer{
+    padding: 30px;
+    text-align: center;
+}
+.navbar-brand{
+    color: #DA2C43 !important;
+}
+nav{
+    clear: both;
+}
+.navbar-nav{
+    background-color: white !important;
+}
+.nav-item{
+    padding: 0 100px;
+    border: 1px solid black;
+    background-color: gray;
+    
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    
+}
+.logo{
+    float: left;
+    overflow: hidden;
+}
+a:hover{
+    color: blueviolet;
+}
+.contact_form{
+    background-image: linear-gradient(to right,#370677,rgb(122, 20, 20)); 
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+
+}
+.contact_form h4{
+  
+   font-size: 25px;
+   color:white;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+form input,textarea{
+    background-image: linear-gradient(to top,#6e307e,#792691,#901ab4,#7e1470); 
+    border-bottom: 3px solid white;
+}
+form input,textarea{
+    margin: 10px;  
+    padding: 10px; 
+    color: #eee7e7;
+    
+}
+button{
+    background-color: #FF007F;
+    margin: 10px;  
+    padding: 10px; 
+    color: #fff;
+
+}
+.contact_deatails div{
+    margin-bottom:50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .head h1,p{
+     clear: both;
+     text-align: center;
+    }
+    .logo{
+      position: relative;
+      left:120px;
+    }
+   }
